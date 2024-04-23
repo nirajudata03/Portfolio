@@ -310,3 +310,201 @@ nav #container {
 #container-footer ul li {
     color: #fff;
 }
+
+
+
+
+/* Responsive Section */
+@media screen and (max-width: 600px) {
+
+    #container-box {
+        min-height: 85vh;
+        width: 95vw;
+        background-color: #FFFFFF;
+        position: relative;
+        margin: 0 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    #img img {
+        height: 18vh;
+        width: 28vw;
+        display: none;
+    }
+    #content h1 {
+        font-size: 5rem;
+        margin: 10vh 0 3vh 1vh;
+        font-family: 'Josefin sans';
+        text-align: left;
+    }
+    #content h3 {
+        font-size: 3rem;
+        font-family: 'Josefin sans';
+        margin: 0 0 4vh 1vh;
+        text-align: left;
+    }
+    #content ul {
+        list-style: none;
+        font-size: 1.2rem;
+        font-family: 'Josefin sans';
+        text-align: left;
+        margin-bottom: 8vh;
+    }
+    #content li {
+        margin: 0 0 2vh 1vh;
+        color: #40424a;
+    }
+
+
+    #resume-marks {
+        height: 10vh;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
+    #resume-marks h1 {
+        font-size: 3rem;
+        font-family: 'Rethink Sans';
+        text-align: justify;
+        margin-left: 3vw;
+    }
+
+
+    #de-script {
+        min-height: 80vh;
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #line {
+        display: none;
+    }
+    #text1 h1 {
+        font-size: 3rem;
+        font-family: 'Josefin sans';
+        color: #40424a;
+    }
+    #text2 h1 {
+        font-size: 3em;
+        font-family: 'Josefin sans';
+        color: #40424a;
+    }
+    #text1 h1 {
+        transform: translate(2vh,-10vh);
+    }
+    #text1 h3 {
+        font-size: 2rem;
+        transform: translate(2vh,-10vh);
+        font-family: 'Josefin sans';
+    }
+    #text1 p {
+        font-size: 1.2rem;
+        transform: translate(2vh,-10vh);
+        font-family: 'Josefin sans';
+    }
+    #text2 h1 {
+        transform: translate(2vh,10vh);
+    }
+    #text2 h3 {
+        font-size: 2rem;
+        font-family: 'Josefin sans';
+        transform: translate(2vh,10vh);
+    }
+    #text2 p {
+        font-size: 1.2rem;
+        font-family: 'Josefin sans';
+        transform: translate(2vh,10vh);
+    }
+    
+    
+    
+    #text3 h1 {
+        font-size: 3rem;
+        font-family: 'Josefin sans';
+        color: #40424a;
+        transform: translate(2vh,-10vh);
+    }
+    #text4 h1 {
+        font-size: 3rem;
+        font-family: 'Josefin sans';
+        color: #40424a;
+    }
+    #text3 h3 {
+        font-size: 1.5rem;
+        transform: translate(2vh,-10vh);
+        font-family: 'Josefin sans';
+    }
+    #text3 p {
+        font-size: 1.2rem;
+        transform: translate(2vh,-10vh);
+        font-family: 'Josefin sans';
+    }
+    #text4 h1 {
+        transform: translate(2vh,10vh);
+    }
+    #text4 h3 {
+        font-size: 1.5rem;
+        font-family: 'Josefin sans';
+        transform: translate(2vh,10vh);
+    }
+    #text4 p {
+        font-size: 1.2rem;
+        font-family: 'Josefin sans';
+        transform: translate(2vh,10vh);
+    }
+
+
+    #lang {
+        min-height: 20vh;
+        width: 100%;
+        background-color: #F9F9F9;
+    }
+    #lang h1 {
+        font-size: 2rem;
+        font-family: 'Rethink Sans';
+        text-align: justify;
+        margin-left: 1vw;
+        text-align: left;
+    }
+    #lang p {
+        font-size: 1.5rem;
+        font-family: 'Rethink Sans';
+        text-align: justify;
+        margin-left: 20vw;
+        word-spacing: 1vw;
+        text-align: left;
+    }
+
+
+
+    #port {
+        min-height: 10vh;
+        width: 100%;
+        top: 10vh;
+        background-color: #F9F9F9;
+    }
+    #port h1 {
+        font-size: 1.5rem;
+        font-family: 'Rethink Sans';
+        text-align: justify;
+        margin: 10vw 0 2vh 5vw;
+    }
+
+
+
+    #container-footer {
+        height: 15vh;
+        width: 100%;
+        background-color: #494949;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        align-items: center;
+        justify-content: center;
+        transform: translate(0,10vh);
+    }
+}
